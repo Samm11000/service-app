@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const multer = require('multer');
-const { verifyToken } = require('../middlewares/authMiddleware');
+const { verifyToken } = require('../middlewares/authMiddlewares');
 const {
   getVendorProfile,
   updateVendorProfile,
