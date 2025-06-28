@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const { getProfile, updateProfile, uploadProfilePhoto } = require('../controllers/userController');
-const { verifyToken } = require('../middlewares/authMiddleware');
+const { verifyToken } = require('../middlewares/authMiddlewares');
 const multer = require('multer');
 
 // Using memory storage for file upload to S3
